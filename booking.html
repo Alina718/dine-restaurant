@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="dist/style.css">
+  <script defer src="dist/script-1.js"></script>
+  
+  <title>Frontend Mentor | Dine Website Challenge</title>
+</head>
+<body>
+
+  <section class="booking-hero">
+    <div class="booking-hero__item wrapper-max">
+        <div class="booking-hero__logo">
+          <a href="index.html"><img src="images/logo.svg" alt="logo" class="logo"></a>
+        </div>
+        
+          <div class="booking-hero__text">
+            <h1>Reservations</h1>
+            <p class="text-intro">We can’t wait to host you. If you have any special requirements please feel free to 
+              call on the phone number below. We’ll be happy to accommodate you.</p>
+          </div>
+        </div>
+  </section>
+
+  <section class="booking-form">
+    <span class="pattern-curve-bottom-right"></span>
+
+    <div class="form-container">
+      <form action="" id="form" class="form box-shadow">
+
+        <div class="form__wrapper">
+  
+          <div class="form__personal-info form-control">
+            <input class="form__info" type="text" placeholder="Name" id="name" name="name">
+            <small>Error message</small>
+          </div>
+          <div class="form__personal-info form-control">
+            <input class="form__info" type="email" placeholder="Email" id="email" name="email">
+            <small>Error message</small>
+          </div>
+          
+          <div class="form__date form-control">
+            <label for="date">Pick a date</label>
+                <input class="date" type="text" placeholder="mm" id="month" name="add-month">
+                <input class="date" type="text" placeholder="dd" id="day" name="add-day">
+                <input class="date date--year" type="text" placeholder="yyyy" id="year" name="add-year">
+                <small>Error message</small>
+          </div>
+
+          <div class="form__time form-control">
+            <label for="time">Pick a time</label>
+            <input  class="time" type="text" placeholder="09" id="hour" name="add-hour">
+            <input  class="time" type="text" placeholder="00" id="minutes" name="add-minutes">
+            <small>Error message</small> 
+          
+            <div class="form__time-options">
+                <div class="time-options-container">
+                  <div class="option">
+                    <input class="option-choice" type="radio" name="option" id="am" checked>
+                    <span class="check-mark"></span>
+                    <label for="am">AM</label>
+                  </div>
+                  <div class="option">
+                   <input class="option-choice" type="radio" name="option" id="pm">
+                   <span class="check-mark"></span>
+                   <label for="pm">PM</label>
+                 </div>
+                </div>
+                <div class="option-selected">
+                  AM
+                </div>
+            </div>
+           </div>
+
+            <div class="form__guests-number">
+              <button id="btn__decrease"class="counter__btn" type="button"><img src="images/icons/icon-minus.svg" alt="minus"></button>
+              <h3><span id="number">0</span> people</h3>
+              <button id="btn__increase" class="counter__btn" type="button"><img src="images/icons/icon-plus.svg" alt="plus"></button>
+            </div>
+            <button class="reservation-btn" id="reservation-btn" type="submit">Make Reservation</button>
+          </div>
+      </form>
+    </div>
+  </section>
+
+  <section class="footer">
+    <div class="footer__items wrapper-max">
+      <div class="footer__logo">
+        <a href="index.html" class="footer__logo"><img src="images/logo.svg" alt="logo" class="logo"></a>
+      </div>
+  
+      <div class="footer__information">
+        
+        <div class="contacts">
+          <ul>
+            <li>Marthwaite, Sedbergh</li>
+            <li>Cumbria</li>
+            <li>+00 44 123 4567</li>
+          </ul>
+        </div>
+  
+        <div class="open-hours">
+          <ul>
+            <li>Open Times</li>
+            <li>Mon - Fri: 09:00 AM - 10:00 PM</li>
+            <li>Sat - Sun: 09:00 AM - 11:30 PM</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  
+
+  
+
+<!--
+
+
+ 
+-->
+
+
+</body>
+</html>

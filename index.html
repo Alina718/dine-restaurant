@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="dist/style.css">
+  <script defer src="dist/script-0.js"></script>
+  
+  <title>Frontend Mentor | Dine Website Challenge</title>
+</head>
+<body class="home-page">
+  
+  <section class="hero">
+    <div class="hero__logo">
+      <a href="index.html"><img src="images/logo.svg" alt="logo" class="logo"></a>
+    </div>
+      <div class="hero__item">
+          <div class="hero__intro">
+            <h1>Exquisite dining<br> since 1989</h1>
+            <p class="text-intro">Experience our seasonal menu in beautiful country surroundings. Eat the freshest produce from 
+              the comfort of our farmhouse.</p>
+            <a class="booking-btn booking-btn--dark" href="booking.html">Book a table</a>
+          </div>
+        </div>
+        <div class="hero__image"></div>
+    
+  </section>
+
+  <section class="feature">
+    <span class="pattern-left"></span>
+
+    <div class="feature__items wrapper">
+      <div class="feature__item">
+        <picture>
+          <source media="(min-width: 1024px )" srcset="images/homepage/enjoyable-place-desktop.jpg">
+          <source media="(min-width: 640px)" srcset="images/homepage/enjoyable-place-tablet.jpg">
+          <source media="(max-width: 639px)" srcset="images/homepage/enjoyable-place-mobile.jpg">
+          <img class="feature__image feature__image--place box-shadow" src="images/homepage/enjoyable-place-desktop.jpg" alt="enjoyable place">
+        </picture>
+      
+      <div class="feature__about wrapper-pall">
+        <div class="decoration">
+          <span class="circle"></span>
+          <span class="line"></span>
+        </div>
+        <h2>Enjoyable place <br> for all the family</h2>
+        <p class="text-intro">Our relaxed surroundings make dining with us a great experience for everyone. We can even arrange 
+              a tour of the farm before your meal.</p>
+      </div>
+      </div>
+
+      <div class="feature__item feature__item--food">
+        <div class="feature__about wrapper-pall">
+          <div class="decoration">
+            <span class="circle"></span>
+            <span class="line"></span>
+          </div>
+          <h2>The most locally <br> sourced food</h2>
+          <p class="text-intro">All our ingredients come directly from our farm or local fishery. So you can be sure that you’re 
+              eating the freshest, most sustainable food.</p>
+        </div>
+
+        <picture class="feature__image--container">
+          <source media="(min-width: 1024px )" srcset="images/homepage/locally-sourced-desktop.jpg">
+          <source media="(min-width: 640px)" srcset="images/homepage/locally-sourced-tablet.jpg">
+          <source media="(max-width: 639px)" srcset="images/homepage/locally-sourced-mobile.jpg">
+          <img class="feature__image feature__image--food" src="images/homepage/locally-sourced-desktop.jpg" alt="locally sourced food">
+        </picture>
+      
+      </div>    
+    </div>
+    
+    <span class="pattern-right"></span>
+    
+  </section>
+  <section class="menu">
+
+          <div class="menu__set wrapper">
+
+            <div class="menu__intro wrapper-pall">
+              <div class="decoration">
+                <span class="circle"></span>
+                <span class="line"></span>
+              </div>
+              <h2>A few highlights from our menu</h2>
+              <p class="text-intro">We cater for all dietary requirements, but here’s a glimpse at some of our diner’s favourites. 
+                Our menu is revamped every season.</p>
+            </div>
+
+            <div class="menu__items">
+
+              <div class="menu__item">
+                <picture class="menu__item-image">
+                  <source media="(min-width: 640px)" type="image/jpeg" srcset="images/homepage/salmon-desktop-tablet.jpg">
+                  <source media="(max-width: 639px)" type="image/jpeg" srcset="images/homepage/salmon-mobile.jpg">
+                  <img src="images/homepage/salmon-desktop-tablet.jpg" alt="salmon fillet">
+                </picture>
+                <div class="menu__item-text">
+                  <h3>Seared salmon fillet</h3>
+                  <p>Our locally sourced salmon served with a refreshing buckwheat summer salad.</p>
+                </div>
+              </div> 
+
+              <span class="divide"></span>
+
+              <div class="menu__item">
+                <picture class="menu__item-image">
+                  <source media="(min-width: 640px)" type="image/jpeg" srcset="images/homepage/beef-desktop-tablet.jpg">
+                  <source media="(max-width: 639px)" type="image/jpeg" srcset="images/homepage/beef-mobile.jpg">
+                  <img src="images/homepage/salmon-desktop-tablet.jpg" alt="beef">
+                </picture>
+                <div class="menu__item-text">
+                  <h3>Rosemary filet mignon</h3>
+                  <p>Our prime beef served to your taste with a delicious choice of seasonal sides.</p>
+                </div>
+              </div>
+
+              <span class="divide"></span>
+
+              <div class="menu__item">
+                <picture class="menu__item-image">
+                  <source 
+                    media="(min-width: 640px)" 
+                    type="image/jpeg" 
+                    srcset="images/homepage/chocolate-desktop-tablet.jpg">
+                  <source 
+                    media="(max-width: 639px)" 
+                    type="image/jpeg" 
+                    srcset="images/homepage/chocolate-mobile.jpg">
+                  <img src="images/homepage/salmon-desktop-tablet.jpg" alt="chocolate mousse">
+                </picture>
+                <div class="menu__item-text">
+                  <h3>Summer fruit chocolate mousse</h3>
+                  <p>Creamy mousse combined with summer fruits and dark chocolate shavings.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+  </section>
+
+  <section class="slider">
+    <span class="pattern-left"></span>
+
+    <div class="slider__items wrapper-max">
+
+        <picture id="family-gathering-image" class="slider__image">
+          <source media="(min-width: 1024px )" srcset="images/homepage/family-gathering-desktop.jpg">
+          <source media="(min-width: 640px)" srcset="images/homepage/family-gathering-tablet.jpg">
+          <source media="(max-width: 639px)" srcset="images/homepage/family-gathering-mobile.jpg">
+          <img class="box-shadow" src="images/homepage/family-gathering-desktop.jpg" alt="family gathering">
+        </picture>
+
+        <picture class="slider__image" id="special-events-image" hidden>
+          <source media="(min-width: 1024px )" srcset="images/homepage/special-events-desktop.jpg">
+          <source media="(min-width: 640px)" srcset="images/homepage/special-events-tablet.jpg">
+          <source media="(max-width: 639px)" srcset="images/homepage/special-events-mobile.jpg">
+          <img class="box-shadow" src="images/homepage/special-events-desktop.jpg" alt="special events">
+        </picture>
+
+        <picture class="slider__image" id="social-events-image" hidden>
+          <source media="(min-width: 1024px )" srcset="images/homepage/social-events-desktop.jpg">
+          <source media="(min-width: 640px)" srcset="images/homepage/social-events-tablet.jpg">
+          <source media="(max-width: 639px)" srcset="images/homepage/social-events-mobile.jpg">
+          <img class="box-shadow" src="images/homepage/social-events-desktop.jpg" alt="social events">
+        </picture>
+
+        <div class="slider__toggle" role="tablist" aria-label="choose event">
+          <button aria-selected="true" tabindex="0" aria-controls="family-gathering-tab" data-image="family-gathering-image" role="tab">Family Gathering</button>
+          <button aria-selected="false" tabindex="-1" aria-controls="special-events-tab" data-image="special-events-image" role="tab">Special Events</button>
+          <button aria-selected="false" tabindex="0" aria-controls="social-events-tab" data-image="social-events-image" role="tab">Social Events</button>
+        </div>
+
+          <article class="slider__description wrapper-pall" id="family-gathering-tab" role="tabpanel" tabindex="0">
+            <h2>Family Gathering</h2>
+            <p class="text-intro">We love catering for entire families. So please bring everyone along for a special meal with your 
+              loved ones. We’ll provide a memorable experience for all.</p>
+          </article>
+
+          <article class="slider__description wrapper-pall" id="special-events-tab" role="tabpanel" tabindex="0" hidden>
+            <h2>Special Events</h2>
+            <p class="text-intro">Whether it’s a romantic dinner or special date you’re celebrating with others we’ll look after you. 
+              We’ll be sure to mark your special date with an unforgettable meal.</p>
+          </article>
+
+          <article class="slider__description wrapper-pall" id="social-events-tab" role="tabpanel" tabindex="0" hidden>
+            <h2>Social Events</h2>
+            <p class="text-intro">Are you looking to have a larger social event? No problem! We’re more than happy to cater for big 
+              parties. We’ll work with you to make your event a hit with everyone.</p>
+          </article>
+          <a class="slider__booking-btn booking-btn" href="booking.html">Book a table</a>
+  </section>
+
+  <section class="reservation">
+    <div class="reservation__text wrapper-max">
+      <h2>Ready to make a reservation?</h2>
+      <a class="booking-btn booking-btn--reservation" href="booking.html">Book a table</a>
+    </div>
+  </section>
+
+  <section class="footer">
+    <div class="footer__items wrapper-max">
+      <div class="footer__logo">
+        <a href="index.html"><img src="images/logo.svg" alt="logo" class="logo"></a>
+      </div>
+  
+      <div class="footer__information">
+        
+        <div class="contacts">
+          <ul>
+            <li>Marthwaite, Sedbergh</li>
+            <li>Cumbria</li>
+            <li>+00 44 123 4567</li>
+          </ul>
+        </div>
+  
+        <div class="open-hours">
+          <ul>
+            <li>Open Times</li>
+            <li>Mon - Fri: 09:00 AM - 10:00 PM</li>
+            <li>Sat - Sun: 09:00 AM - 11:30 PM</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+</body>
+</html>
